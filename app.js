@@ -20,7 +20,7 @@ for (let i = 0; i < cells.length; i++) {
 
 function cellClicked (ev) {
 if (ev.target.textContent = "")
-    if (turnCouner % 2 == 0) {
+    if (turnCounter % 2 == 0) {
     ev.target.textContent = "X";
     }   else {
     ev.target.textContent = "O"
